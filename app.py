@@ -12,7 +12,7 @@ RENKLER = {
 }
 
 def sansli_soz_getir():
-    # --- (Burası senin yazdığın fonksiyonun aynısı, değiştirmedim) ---
+   
     try:
         with open("sozler.txt", "r", encoding="utf-8") as dosya:
             satirlar = dosya.readlines()
