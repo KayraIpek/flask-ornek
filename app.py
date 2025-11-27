@@ -11,8 +11,7 @@ RENKLER = {
     "Legendary": "#ffc107"
 }
 
-def sansli_soz_getir():
-   
+def sansli_soz_getir():
     try:
         with open("sozler.txt", "r", encoding="utf-8") as dosya:
             satirlar = dosya.readlines()
